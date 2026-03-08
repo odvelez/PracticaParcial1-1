@@ -1,4 +1,5 @@
-public class usuario{
+public class usuario {
+
     private long id;
     private String nombre;
     private String email;
@@ -10,5 +11,21 @@ public class usuario{
     this.email = email;
     this.ciudad = ciudad;
 }
+
+    public long getId(){
+        return id;
+    }
+
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public String getEmail(){
+        return email;
+    }
+
+    public String getCiudad(){
+        return ciudad;
+    }
 
 }
